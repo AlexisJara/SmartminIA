@@ -4,3 +4,9 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request,'paginas/index.html')
+
+def iniciosesion(request):
+    return render(request,'paginas/iniciosesion.html')
+
+def registro(request):
+    return render(request,'paginas/registro.html')
